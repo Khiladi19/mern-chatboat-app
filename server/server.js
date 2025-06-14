@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 app.use(cors({
   // origin: "http://localhost:5173", 
-  origin: "https://mern-chatboat-frontend.onrender.com", 
+  origin: "https://mern-chatboat-app-frontend.onrender.com", 
   credentials: true,
 }));
 // Routes
