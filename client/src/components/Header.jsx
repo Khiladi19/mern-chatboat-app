@@ -1,4 +1,3 @@
-// components/Header.jsx
 import { SignOutButton, useUser } from "@clerk/clerk-react";
 
 export default function Header() {

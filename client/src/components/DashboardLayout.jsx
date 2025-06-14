@@ -1,4 +1,3 @@
-// components/DashboardLayout.jsx
 import Header from "./Header";
 import { Outlet } from "react-router-dom";
 
