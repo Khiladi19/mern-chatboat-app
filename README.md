@@ -57,17 +57,15 @@ npm run dev
 
 -------------
 
-
-## Backend (server/.env)
+Backend (server/.env)
 .enn
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
 JWT_SECRET=your_secret
 
-
-## Frontend (client/.env)
+Frontend (client/.env)
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-VITE_API_BASE_URL=http://localhost:5000/api
+VITE_API_BASE_URL=http://localhost:2000
 
 
 📦 Deployment
