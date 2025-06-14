@@ -2,6 +2,24 @@
 
 A full-stack **MERN** (MongoDB, Express.js, React.js, Node.js) application with **real-time chat functionality** and **user authentication**.
 
+---
+
+## ⚙️ Tech Stack
+
+**Frontend:**
+- React.js (Vite)
+- TailwindCSS
+- Axios
+- React Router
+
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB
+- Clerk Authentication
+
+---
+
 ## ✨ Features
 
 - 🔐 User Authentication
@@ -13,24 +31,23 @@ A full-stack **MERN** (MongoDB, Express.js, React.js, Node.js) application with 
 
 ## 📁 Project Structure
 
+mern-app-/ ├── client/ # Frontend (React + Tailwind) ├── server/ # Backend (Express + MongoDB) └── README.md
 
-mern-app/
-│
-├── client/ # React frontend (Vite + TailwindCSS)
-│ ├── index.html
-│ ├── src/
-│ └── ...
-│
-├── server/ # Express backend
-│ ├── server.js
-│ ├── controllers/
-│ ├── models/
-│ └── routes/
-│
-└── README.md # Project documentation
+---
 
 
+## 🖼️ Screenshots
 
+### Sign-in Page
+![Login](./images/sign-in.png)
+
+###  Student
+![Student-Dashboard](./images/student-dashboard.png)
+---
+
+## 🌐 Live Demo
+
+👉 [Click here to view live demo](https://mern-chatboat-app-frontend.onrender.com/)
 
 ---
 
@@ -43,19 +60,19 @@ git clone https://github.com/Khiladi19/mern-chatboat-app.git
 cd mern-chat-app
 ```
 
----------------
+---
 cd server
 npm install
-# Create .env file and add your MongoDB URI and other env vars
+Create .env file and add your MongoDB URI and other env vars
 npm start
 
---------------
+---
 
 cd client
 npm install
 npm run dev
 
--------------
+---
 
 Backend (server/.env)
 .enn
@@ -77,6 +94,16 @@ Backend: Render
 
 Database: MongoDB Atlas
 
-👨‍💻 Author
-Your Name – Abhishek kumar
+---
+
+👨‍💻 Developed by
+Abhishek Kumar
+
+🔗 [Connect with me on LinkedIn](https://www.linkedin.com/in/abhishek-kumar193/)
+
+📝 License
+This project is open-source and free to use.
+
+🙌 Thank You
+Thanks for checking out this project! 😊
 
